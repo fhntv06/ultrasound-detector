@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Акустическая диагностика</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="windows">
+            <div style="width:560px;">
+            <h1>Дефектоскоп<span class="number"> АКС 2к21</span></h1>
+        </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="windows">
+                        <div class="windows__item">
+                            <div class="coordinate">
+                                <h2>X</h2>
+                                <div class="params">
+                                    <h2 id="axisX" class="number">0</h2>
+                                    <span class="mm">mm</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>Путь: <span id="paramL">0</span> мм</p>
+                            </div>
+                            <div class="row">
+                                <p>Скорость: 3250 м/с</p>
+                            </div>
+                        </div>
+                        <div class="windows__item">
+                            <div class="coordinate">
+                                <h2>Z</h2>
+                                <div class="params">
+                                    <h2 id="axisZ" class="number">0</h2>
+                                    <span  class="mm">mm</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>Толщ.: 20 мм</p>
+                            </div>
+                            <div class="row">
+                                <p>Усиление: 38 дБ</p>
+                            </div>
+                        </div>
+                        <div class="windows__item">
+                            <div class="coordinate">
+                                <h2>A</h2>
+                                <div class="params">
+                                    <h2 id="paramA" class="number">0</h2>
+                                    <span  class="mm">дБ</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>Экв. площ.: <span id="paramS">21</span> мм<sup>2</sup></p>
+                            </div>
+                            <div class="row">
+                                <p>Шаг усиления: 1 дБ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="axes">
+                        <div class="rectangles">
+                            <div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div>
+                            <div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div>
+                            <div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div>
+                            <div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div>
+                            <div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div>
+                            <div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div>
+                            <div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div>
+                            <div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div>
+                            <div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div>
+                            <div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div><div class="rectangle__item"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="buttons">
+                        <div class="buttons__item" style="background-image: url(/img/buttons_items/1.png);"></div>
+                        <div class="buttons__item" style="background-image: url(/img/buttons_items/2.png);"></div>
+                        <div class="buttons__item" style="background-image: url(/img/buttons_items/3.png);"></div>
+                        <div class="buttons__item" style="background-image: url(/img/buttons_items/4.png);"></div>
+                        <div class="buttons__item" id="graf" style="background-image: url(/img/buttons_items/5.png);"></div>
+                        <div class="buttons__item" style="background-image: url(/img/buttons_items/6.png);"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" style="background-image: url(/img/back_ground.jpg);">
+                <div class="hov" >
+                    <div class="hov_sup" style="background-image: url(/img/svarnoi_hov_sup.jpg);"></div>
+                    <div class="hov_sub" style="background-image: url(/img/svarnoi_hov_sub.jpg);">
+                        <div id="cursor"></div>
+                    </div>
+                </div>    
+                
+            </div>
+
+        </div>
+        
+    </main>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

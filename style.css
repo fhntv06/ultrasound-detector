@@ -108,7 +108,7 @@ h2{
 .axes{
     position: relative;
     margin: 10px;
-    background-image: url(/img/axes.png);
+    background-image: url(/ultrasound-detector/img/axes.png);
     height: 290px;
     box-shadow: inset 0 0 10px 0 white;
 }
